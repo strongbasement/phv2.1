@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+#abouth.hq{
+    /*font-family: 'Julee', cursive;*/
+    text-align: center;
+    color:black;
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 2rem;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+#aboutflex.flex
+{
+    display: flex;
+    justify-content: center;
+     flex-wrap: wrap;
+     padding: 20px;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 1.2rem;
+     
+     
+}
+#love.span
+{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+     font-size: 1.2rem;
+}
+#about2flex.flex2
+{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+   
+}
+#fir.card
+{
+    margin-bottom: 20px;
+}
+#fir2.card
+{
+    margin-bottom: 20px;
+}
+#fir3.card
+{
+    margin-bottom: 20px;
+}
+#abb
+{
+    margin-top: 100px;
+}

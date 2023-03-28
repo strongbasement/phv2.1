@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="new arrival/newarrival.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Julee&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="about/about.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  </head>
+<body>
+  <style>
+ 
+    .load-wrapper{
+      width: 100%;
+      height: 100%;
+      position:absolute;
+      top: 0;
+      left: 0;
+      background-color:white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    
+    .nav-item
+    {
+      margin-left: 40px;
+      margin-right: 20px;
+    }
+    .active23
+    {
+      
+      background-color: powderblue;
+      border-radius: 25%;
+    }
+    .fontMenu
+    {
+      
+      font-family: 'Montserrat', sans-serif;
+    
+    }
+    #caro
+    {
+      margin-top: 100px;
+    }
+    .bg
+    {
+      background-color: white;
+      
+      
+    }
+    #menu
+    {
+      margin: 0px;
+      padding-top: 10px;
+      border-radius: 25%;
+    }
+    .card
+    {
+      border: none;
+    }
+    .neo{
+      border-radius: 5%;
+    }
+    body{
+      background-color: white;
+      padding: 30px;
+    }
+
+    .solid
+    {
+      border:solid 1px;
+      border-color: gray;
+    }
+
+
+    .fadeInLeft
+{
+    -webkit-animation: fadeInLeft 2s both;
+    -moz-animation:fadeInLeft 2s both ;
+    -o-animation: fadeInLeft 2s both;
+    animation: fadeInLeft 2s both;
+}
+
+@-webkit-keyframes fadeInLeft{
+0%{
+    opacity: 0;
+    -webkit-transform: translateX(-50px);
+}
+100%
+{
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+}
+}
+@-moz-keyframes fadeInLeft{
+    0%{
+        opacity: 0;
+        -moz-keyframes:translateX(-50px);
+    }
+    100%{
+        opacity: 1;
+        -moz-keyframes:translateX(0px);
+    }
+    
+}
+    
+@-o-keyframes fadeInLeft{
+
+    0%{
+        opacity: 0;
+        -o-keyframes:translateX(-50px);
+    }
+    100%{
+        opacity: 1;
+        -o-keyframes:translateX(0px);
+    }
+
+}
+@keyframes fadeInLeft{
+    0%{
+        opacity: 0;
+        transform:translateX(-50px);
+    }
+    100%{
+        opacity: 1;
+        transform:translateX(0px);
+    }
+
+}
+
+.fadeInTop
+{
+    -webkit-animation: fadeInTop 2s both;
+    -moz-animation:fadeInTop 2s both ;
+    -o-animation: fadeInTop 2s both;
+    animation: fadeInTop 2s both;
+}
+
+@-webkit-keyframes fadeInTop{
+0%{
+    opacity: 0;
+    -webkit-transform: translateY(-50px);
+}
+100%
+{
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+}
+}
+@-moz-keyframes fadeInTop{
+    0%{
+        opacity: 0;
+        -moz-keyframes:translateY(-50px);
+    }
+    100%{
+        opacity: 1;
+        -moz-keyframes:translateY(0px);
+    }
+    
+}
+    
+@-o-keyframes fadeInTop{
+
+    0%{
+        opacity: 0;
+        -o-keyframes:translateY(-50px);
+    }
+    100%{
+        opacity: 1;
+        -o-keyframes:translateY(0px);
+    }
+
+}
+@keyframes fadeInTop{
+    0%{
+        opacity: 0;
+        transform:translateY(-50px);
+    }
+    100%{
+        opacity: 1;
+        transform:translateY(0px);
+    }
+
+}
+
+
+.fadeInRight
+{
+    -webkit-animation: fadeInRight 2s both;
+    -moz-animation:fadeInRight 2s both ;
+    -o-animation: fadeInRight 2s both;
+    animation: fadeInRight 2s both;
+}
+
+@-webkit-keyframes fadeInRight{
+0%{
+    opacity: 0;
+    -webkit-transform: translateX(50px);
+}
+100%
+{
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+}
+}
+@-moz-keyframes fadeInRight{
+    0%{
+        opacity: 0;
+        -moz-keyframes:translateX(50px);
+    }
+    100%{
+        opacity: 1;
+        -moz-keyframes:translateX(0px);
+    }
+    
+}
+    
+@-o-keyframes fadeInRight{
+
+    0%{
+        opacity: 0;
+        -o-keyframes:translateX(50px);
+    }
+    100%{
+        opacity: 1;
+        -o-keyframes:translateX(0px);
+    }
+
+}
+@keyframes fadeInRight{
+    0%{
+        opacity: 0;
+        transform:translateX(50px);
+    }
+    100%{
+        opacity: 1;
+        transform:translateX(0px);
+    }
+
+
+
+
+}
+
+
+
+/*mobile*/
+@media (max-width:480px) {
+.logo{
+  width: 100px;
+  height: 30px;
+}
+
+}
+    
+  </style>
+  <section id="menu">
+    <nav class="navbar navbar-expand-lg   ">
+      <div class="container-fluid bg">
+        <a class="navbar-brand" href="#"><img src="navigation/logos.png" class="logo" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav  mb-2 mb-lg-0 ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active active23" aria-current="page" href="#"> <img src="navigation/planth.png" alt="" height="32px" width="32px"><span class="fontMenu">Home</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="navigation/plantmenup.png" alt="" height="32px" width="32px"> <span class="fontMenu">Plants</span> 
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="navigation/medicinal.html">Medicinal plants</a></li>
+                <li><a class="dropdown-item" href="#">Succulents</a></li>
+               <!-- <li><hr class="dropdown-divider"></li>-->
+                <li><a class="dropdown-item" href="menu/flowers.html">Flowering plants</a></li>
+                <li><a class="dropdown-item" href="#">Fruit plants</a></li>
+
+
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <img src="navigation/seed.png" alt="" height="32px" width="32px"> Seeds
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Vegetable Seeds</a></li>
+                    <li><a class="dropdown-item" href="#">flowers seeds</a></li>
+                   <!-- <li><hr class="dropdown-divider"></li>-->
+                    <li><a class="dropdown-item" href="#">Micro green seeds</a></li>
+                    <li><a class="dropdown-item" href="#">Fruit seeds</a></li>
+                    <li><a class="dropdown-item" href="#">Herb seeds</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <img src="navigation/plant-pot.png" alt="" height="32px" width="32px">  Pots and Grow bags
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">plastic pots</a></li>
+                    <li><a class="dropdown-item" href="#">Ceramic pots</a></li>
+                   <!-- <li><hr class="dropdown-divider"></li>-->
+                    <li><a class="dropdown-item" href="#">Metal Planters</a></li>
+                    <li><a class="dropdown-item" href="#">Hanging planters</a></li>
+                    <li><a class="dropdown-item" href="#">Seedling Trays</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><img src="navigation/blog.png" alt="" height="32px" width="32px">Blog</a>
+              </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </section>
+
+    <section id="caro">
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" >
+<!--  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+  </div>-->
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="3000">
+      <img src="caro/c1.jpg" class="d-block w-100 size solid neo" width="" height="" alt="dfd">
+    </div>
+    <div class="carousel-item">
+      <img src="caro/c2.jpg" class="d-block w-100 size  neo" width="" height=""   alt="dfd">
+    </div>
+    <div class="carousel-item">
+      <img src="caro/c3.jpg" class="d-block w-100 size  neo" width="" height=""  alt="dfd">
+    </div>
+    <div class="carousel-item">
+      <img src="caro/c4.jpg" class="d-block w-100 size  neo" width="" height=""  alt="dfd">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+    </section>
+    <section>
+      <section id="newarrival">
+        <h1 id="lova">NEW ARRIVALS</h1>
+      
+        <div class="flex" id="news">
+      <!-- The name "rain lilies" comes from their tendency to send up flushes of flowers within a few days after a soaking rain.Elegant and easy to grow, rain lilies liven up gardens with funnel- to goblet-shaped flowers in a range of colors. Different species bloom at different times, so you can enjoy their blooms throughout much of the growing season if you grow several kinds.   -->
+      
+          <div class="card cards" style="width: 18rem;">
+          <img src="new arrival/Rain Lilly.jpg" class="card-img-top imgs neo" alt="...">
+          <div class="card-body animated one">
+            
+            <h5 class="card-title ">Rain Lilly</h5>
+            <p class="card-text card-texts"><span id='des'>The name rain lilies comes from their tendency to send up flushes of flowers within a few days after a soaking rain...</span><span id="more" onclick="view()">More<span></p>
+       <!--<a href="#" class="btn btn-primary">Buy Now</a>-->   
+        </div>
+          </div>
+      
+          <div class="card cards" style="width: 18rem;">
+          <img src="new arrival/Pirandai1.jpeg" class="card-img-top imgs neo" alt="...">
+          <div class="card-body animated two">
+            
+            <h5 class="card-title card-titles">Pirandai</h5>
+            <p class="card-text card-texts"><span id='des1'>Pirandai is very useful for stomach as well as heart. It will set right gastric disorder and protect the heart. ...</span><span id="more1" onclick="view1()">More<span></p>
+          <!--<a href="#" class="btn btn-primary">Buy Now</a>-->  
+          </div>
+        </div>
+      
+        <div class="card cards" style="width: 18rem;">
+        <img src="new arrival/Vetiver.jpg" class="card-img-top imgs neo" alt="...">
+        <div class="card-body animated three">
+          <h5 class="card-title card-titles">Vetiver</h5>
+          <p class="card-text card-texts"><span id='des2'>Vetiver is sometimes applied directly to the skin for relieving stress,as well as for emotional traumas and shock, ...</span><span id="more2" onclick="view2()">More<span></span></p>
+       <!--<a href="#" class="btn btn-primary">Buy Now</a>-->  
+      </div>
+        </div>
+      
+      </section>
+    
+      <script src="new arrival/newarrival.js" charset="utf-8"></script>
+      
+    </section>
+    <script src="index.js"></script>
+
+    <section>
+      <section id="abb">
+        <h1 id="abouth" class="hq">About</h1>
+   <div class="flex four animated" id="aboutflex"><p>Welcome to the plant and gardening hub that's all about nurturing nature and spreading joy. We offer a diverse selection of top-quality plants, plus resources to help you become the gardener you've always wanted to be. Whether you're a seasoned pro or a beginner, our mission is to make gardening accessible and rewarding for all.
+
+       At our site, you'll find everything from succulents to herbs, veggies to blooms. We believe that gardening is good for the soul and the planet, reducing stress and improving air quality. Plus, our blog is always bursting with inspiration and tips to keep your green thumb thriving.
+       
+       So what are you waiting for? Join us and start growing your garden, and your soul.</p></div> 
+       <p class="span" id="love">Happy planting!</p>
+
+       <div class="flex2" id="about2flex">
+           
+             
+               <div class="card five animated" style="width: 18rem;" id="fir">
+                   <img  src="about/aboutpic2.jpg"  height="214px" class="card-img-top img-responsive" alt="...">
+                   
+                 </div>
+                 
+                   <div class="card six animated" style="width: 18rem;" id="fir2">
+                       <img  src="about/aboutpic3.jpg" class="card-img-top img-responsive" alt="...">
+                       
+                     </div>
+                     
+                   <div class="card seven animated" style="width: 18rem;"  id="fir3">
+                       <img   src="about/cn.webp" height="214" class="card-img-top img-responsive" alt="...">
+                       </div>
+                    
+       </div>
+      
+
+   </section>
+    </section>
+<section>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Rubik+Gemstones&display=swap');
+  #coni3
+  {
+    position: relative;
+    bottom:100px;
+    font-family: 'Black Ops One', cursive;
+    text-align: center;
+    font-size: 0.8rem;
+  }
+  #coni2
+{
+    font-family: 'Black Ops One', cursive;
+    text-align: center;
+    font-family: 'Rubik Gemstones', cursive;
+    
+    font-size: 1.9rem;
+}
+  .divf
+{
+    display: flex;
+    justify-content: center;
+   
+    
+    
+}
+  .social
+{
+    
+   /* background-image: url('plantslink.gif');
+background-repeat: no-repeat;
+background-size: cover;*/
+width: 300px;
+height: 300px;
+border-radius: 30%;
+
+}
+  .flexi
+{
+    
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+
+}
+.socimages
+{
+    width: 80px;
+    height: 80px;
+    margin-top: 60px;
+    
+}
+  #plant
+{
+width: 200px;
+    height: 90px;
+    
+}
+#butt:hover
+{
+    
+    background-color:grey;
+  }
+  #butt{
+    margin-top: 30px;
+    font-size:1rem ;
+    
+    background-color: white;
+  }
+    .flexer
+    {
+        display: flex;
+        justify-content: center;
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+    #coni
+    {
+        margin-left: 20px;
+        margin-top: 40px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        color: black;
+        font-size: 1.4rem;
+    }
+    *{
+        box-sizing: border-box;
+    }
+    .myform
+    {
+        
+        
+        margin-top: 200px;
+        
+
+    }
+    #myform input ,textarea
+    {
+        width: 50%;
+        padding: 10px;
+    }
+    label
+    {
+        display: block;
+    }
+    input,textarea
+    {
+        margin-bottom: 30px;
+        font-family: 'Montserrat', sans-serif;
+        
+
+    }
+    @media (max-width:760px)
+    {
+        #myform input ,textarea
+    {
+        width: 100%;
+        padding: 10px;
+    }
+    .social
+{
+    
+    /*background-image: url('plantslink.gif');
+background-repeat: no-repeat;
+background-size: cover;*/
+width: 300px;
+height: 300px;
+
+}
+
+    }
+</style>
+
+    <div class="myform eight animated">
+
+        <form id="myform" name="submit-to-google-sheet">
+           
+            <h1 id="coni">CONTACT US <img src="contact/plant.gif" alt="" id="plant"></h1>
+            
+            
+            <div class="flexer">
+                
+                <input type="text" id="name" name="name" placeholder="Enter your name ">
+            
+            </div>
+            <div class="flexer">
+                
+                <input type="email" id="email" name="mail" placeholder="Enter your email">
+           
+            </div>
+            <div class="flexer">
+                
+                <input type="tel" id="mobile" name="mobile" placeholder="Enter your Mobile No">
+           
+            </div>
+            <div class="flexer">
+                
+                <textarea id="message" cols="30" rows="5" name="message" placeholder="type your message"></textarea>
+            
+            </div>
+            <div class="flexer"><input type="submit" value="Send" id="butt"></div>
+            
+        </form>
+    </div>
+    <h1 id="error"></h1>
+    <div class="divf">
+      <div class="social">
+    
+        <div class="flexi">
+          <div class="animated nine">
+          <a href="mailto:planthouse47@gmail.com"><img src="contact/gmail.png" alt="" class="socimages"></a>
+          </div>
+          <div class="animated ten">
+            <a href="https://instagram.com/plant_house47?igshid=ZDdkNTZiNTM="><img src="contact/instagram.png" alt="" class="socimages"></a>
+
+          </div>
+          <div class="animated eleven">
+            <a href="https://youtube.com/shorts/QR9vN8yYCS8?feature=share"> <img src="contact/youtube.png" alt="" class="socimages"></a></div>
+        </div>
+      </div>
+      </div>
+   <div class="footer">
+    <h4 id="coni3">Copyright © 2023 All rights reserved - planthouse
+      <br>  Powered By GraceCode</h4>
+   </div>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyTmWsOYS9NiujUa25m8wwoPbYWCqEcUnA_lR-hOEebOeoHE_zeOpJacL_QU--C8l6F/exec'
+        const form = document.forms['submit-to-google-sheet'];
+      const myname=document.querySelector('#name');
+      const mymail=document.querySelector('#email');
+      const err=document.querySelector('#error');
+        form.addEventListener('submit', e => {
+            let mess='';
+            if(myname.value.length<3)
+            {
+              mess+='name must have more than three characters';
+                alert(mess);
+                location.href="#myform";
+            } 
+            else{
+                document.querySelector('#butt').setAttribute("disabled", "disabled");
+                e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+            alert("Thank you for your submission");
+            document.querySelector('#butt').value="Done";
+            }
+        
+        });
+      </script>
+</section>
+<div class="load-wrapper">
+  <span class="loader"><img src="plantload.gif" alt="" class="inner"></span>
+</div>
+<script>
+  $(window).on("load",function()
+  {
+    $(".load-wrapper").fadeOut("slow");
+  });
+  
+</script>
+<script src="Animate/animi.js"></script>
+  </body>
+</html>

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+#newarrival
+{
+  padding-top: 60px;
+  margin-top: 100px;;
+}
+.card-texts
+{
+  
+  font-family: 'Racing Sans One', cursive;
+  
+}
+.card-titles
+{
+  font-family: 'Fredericka the Great', cursive;
+  
+
+}
+
+h1
+{
+ padding-top: 45px;
+  text-align: center;
+}
+#news.flex
+{
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+ /* background-color: orange;*/
+
+}
+.cards
+{
+  margin-bottom: 40px;
+}
+.imgs
+{
+  height: 400px;
+}
+#more,#more1,#more2
+{
+  text-decoration: underline;
+  color: grey;
+  font-family: 'Montserrat', sans-serif;
+}
+#lova
+{
+  font-family: 'Montserrat', sans-serif;
+
+  margin-bottom: 45px;
+  
+
+}
+.card-titles
+{
+  font-family: 'Montserrat', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+#des,#des1,#des2
+{
+  font-family: 'Montserrat', sans-serif;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+
+	}
+  /*#lova
+  {
+    
+  }*/
